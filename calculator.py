@@ -9,3 +9,34 @@ def add(a, b):
     pass
 
 
+import math
+
+def add(a, b): 
+    return a + b
+
+def sub(a, b): 
+    return a - b
+
+def mul(a, b): 
+    return a * b
+
+def div(a, b): 
+    try:
+        if a == 0:
+            raise ZeroDivisionError
+        return b/a
+    except ZeroDivisionError as e:
+        print(e)
+
+def log(a, b): 
+    try:
+        if a<=0:
+            raise ValueError
+        return math.log(a,b)
+    except ValueError as e:
+        print(e)
+
+def exp(a, b): 
+    return a**b
+
+
