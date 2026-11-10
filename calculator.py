@@ -1,4 +1,4 @@
-# https://github.com/EshuMarneedi/lab11-EM-AG
+# https://github.com/bpx9qsv6yn-bot/lab11-AG-EM
 # Partner 1: Eshan Marneedi
 # Partner 2: Ansh Gupta
 
