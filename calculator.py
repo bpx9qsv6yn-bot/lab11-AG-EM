@@ -26,8 +26,8 @@ def div(a, b):
             raise ZeroDivisionError
         
         return b / a 
-    except ZeroDivisionError as e:
-        print(e)
+    except ZeroDivisionError:
+        return None
 
 def logarithm(a, b): 
     try:
@@ -69,8 +69,8 @@ def square_root(a):
             raise ValueError
         
         return math.sqrt(a)
-    except ValueError as e:
-        print(e)
+    except ValueError:
+        return None
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
