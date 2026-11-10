@@ -35,8 +35,8 @@ def logarithm(a, b):
             raise ValueError
         
         return math.log(a, b)
-    except ValueError as e:
-        print(e)
+    except ValueError:
+        return None
 
 def exponent(a, b):
     return a ** b
@@ -57,8 +57,8 @@ def log(a, b):
         if a<=0:
             raise ValueError
         return math.log(a,b)
-    except ValueError as e:
-        print(e)
+    except ValueError:
+        return None
 
 def exp(a, b): 
     return a**b
