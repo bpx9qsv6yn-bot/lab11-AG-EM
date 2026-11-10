@@ -1,3 +1,7 @@
+# https://github.com/bpx9qsv6yn-bot/lab11-AG-EM
+# Partner 1: Eshan Marneedi
+# Partner 2: Ansh Gupta
+
 import unittest
 from calculator import *
 
