@@ -19,14 +19,14 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(0, multiply(0,5))
 
     def test_divide(self): # 3 assertions
-        # divide(a, b) returns b / a
-        self.assertEqual(5, divide(2,10))
-        self.assertEqual(-2, divide(-4,8))
-        self.assertEqual(0.5, divide(4,2))
+        # div(a, b) returns b / a
+        self.assertEqual(5, div(2,10))
+        self.assertEqual(-2, div(-4,8))
+        self.assertEqual(0.5, div(4,2))
     ##########################
 
     def test_divide_by_zero(self): # 1 assertion
-        self.assertIsNone(divide(0,1))
+        self.assertIsNone(div(0,1))
 
     def test_logarithm(self): # 3 assertions
         # log(a, b) returns log base b of a
